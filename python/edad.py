@@ -32,4 +32,4 @@ if a > b:
 elif a < b: 
   print("a is less than b") 
 else:  
-  print ("a is equal to b") 
+  print ("a is equal to b")
