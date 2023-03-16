@@ -1,4 +1,4 @@
-radio = float(input('Inserte su dato aqui:'))
+radio = float(input('Inserte su dato aqui :'))
 
 area = 3.1416*(radio*radio)
 
