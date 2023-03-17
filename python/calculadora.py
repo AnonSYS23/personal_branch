@@ -1,6 +1,6 @@
 import math
 
-print("Scientist Calculator\n")
+print("Scientist Calculator/Calculadora cientifica V1.1\n")
 
 while True:
     print("Choose an operation:")
