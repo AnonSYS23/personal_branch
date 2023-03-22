@@ -8,3 +8,23 @@
 # while contador<10:
 #     contador+=1
 #     print(contador)
+
+# counter = 0
+# while counter < 20:
+#   print(counter)
+#   counter+=1
+#   if counter == 15:
+#     break
+# print('Fin del Programa')
+
+# counter = 0
+# while counter < 20:
+#   counter+=1
+#   if counter < 15:
+#     continue
+#   print(counter)
+# print('Fin del Programa')
+
+
+for i in range(1,100,5):
+    print(i)
