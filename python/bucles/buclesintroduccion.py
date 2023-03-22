@@ -11,11 +11,16 @@
 
 # counter = 0
 # while counter < 20:
-#   print(counter)
+#   print(f'ftctfctfc{counter})
 #   counter+=1
 #   if counter == 15:
 #     break
 # print('Fin del Programa')
 
-for i in range(1,100,5):
-    print(i)
+# for i in range(1,100,5):
+#     print(i)
+
+contador = 0
+while contador<10:
+     contador+=1
+     print(f'el contador va {contador}')
