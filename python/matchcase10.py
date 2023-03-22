@@ -15,7 +15,10 @@ menu = """
 
 print(menu)
 
-match metros:
+
+opcion = int(input('ingrese opcion :'))
+
+match opcion:
     case 1:
         x = metros * 1/1000
         print(f'Su convesion de metros a kilometros es {x}')
