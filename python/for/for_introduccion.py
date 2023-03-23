@@ -80,3 +80,17 @@
 
 # for <variable> in <iteraciones>:
 # <Tu código>
+
+# i = 0
+# for i in range(11):
+#   print(i)
+#   i+=1
+
+# cadena = 'Mundo'
+# for i in cadena:
+#   print(i)
+
+Mundo = 'HolaMundo'
+
+for i in Mundo:
+    print(i)
