@@ -11,7 +11,7 @@
 
 # counter = 0
 # while counter < 20:
-#   print(f'ftctfctfc{counter})
+#   print(f'{counter})
 #   counter+=1
 #   if counter == 15:
 #     break
