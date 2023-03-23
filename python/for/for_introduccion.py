@@ -77,3 +77,6 @@
 #     total += dado
 # print(f"En total ha obtenido {total} punto(s).")
 # print("Final")
+
+# for <variable> in <iteraciones>:
+# <Tu código>
