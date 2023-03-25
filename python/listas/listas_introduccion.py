@@ -22,3 +22,11 @@
 # for lista, lista2 in zip(lista,lista2):
 #     print(lista)
 #     print(lista2)
+
+lista1 = [1,1.1,2]
+lista2 = ['Hola','Mundo']
+
+print(lista2[1])
+
+
+
