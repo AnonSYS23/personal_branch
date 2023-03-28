@@ -1,22 +1,38 @@
-print('Bienvenido a calculadora 1.5')
+def add(x, y):
+    return x + y
 
-n1 = float(input('Ingrese su primer numero :'))
-n2 = float(input('Ingrese su ultimo numero :'))
+def subtract(x, y):
+    return x - y
 
+def multiply(x, y):
+    return x * y
 
-def suma(n1,n2):
-    return n1+n2
-def resta(n1,n2):
-    return n1-n2
-def multiplicacion(n1,n2):
-    return n1*n2
-def division(n1,n2):
-    return n1/n2
+def divide(x, y):
+    return x / y
 
-suma(n1 + n2)
+print("Welcome to the calculator!")
 
-resta(n1 - n2)
+while True:
+    operation = input("Enter an operation (+, -, *, /): ")
+    if operation not in ["+", "-", "*", "/"]:
+        print("Invalid operation. Please try again.")
+        continue
 
-multiplicacion(n1 * n2)
+    num1 = float(input("Enter the first number: "))
+    num2 = float(input("Enter the second number: "))
 
-division(n1 / n2)
+    if operation == "+":
+        result = add(num1, num2)
+    elif operation == "-":
+        result = subtract(num1, num2)
+    elif operation == "*":
+        result = multiply(num1, num2)
+    elif operation == "/":
+        result = divide(num1, num2)
+
+    print(f"{num1} {operation} {num2} = {result}\n")
+
+    another_operation = input("Do you want to perform another operation? (y/n): ")
+    if another_operation.lower() == "n":
+        print("Thanks for using the calculator!")
+        break
