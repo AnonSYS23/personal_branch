@@ -1,0 +1,14 @@
+body{
+    font-style: italic;
+    font-size: medium;
+    margin-top: 5px;       
+    padding: 5px;    
+    background-color:rgb(114, 114, 113);   
+    border: 2px solid #000;    
+    color: #000000;   
+    text-align: center;
+}
+form{
+    width: auto;
+    border: 2px solid #000;
+}
