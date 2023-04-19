@@ -5,16 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejemplo2</title>
+    <link rel="stylesheet" href="/html/ejemplo2.css">
 </head>
 <body>
-    <div class="formulario">
+    <div class="title">
+        <h1>Anuncio oficial de AnonChat 1.0</h1>
+    </div>
+    <p>Este evento se tratara del anuncio global de AnonChat 1.0 y hablara de sus mejoras e sus comparaciones con otras versiones</p>
+    <div class="form">
+    <section>
         <form action="">
             <label>Nombre:</label>
-            <input type="text" name="nombre">
+            <input type="text" name="nombre" placeholder="Escriba su nombre aqui" required>
             <label>Apellido:</label>
-            <input type="text" name="apellido">
-            
+            <input type="text" name="apellido" placeholder="Escriba su apellido aqui" required>
+            <label>Email:</label>
+            <input type="email" name="email" placeholder="Escriba su email aqui" required>
+            <label>Telefono:</label>
+            <input type="text" name="telefono" placeholder="Escriba su telefono aqui" required>
+            <label>Direccion:</label>
+            <input type="text" name="direccion" placeholder="Escriba su direccion aqui" required>
+    </section>
+    <section>
+        <form action=""></form>
+            <label>Aceptar terminos y condiciones del evento:</label>
+            <input type="checkbox" name="confirmar" required>
+            <label>Continuar</label>
+            <input type="submit" value="Confirmar">
+    </section>
         </form>
     </div>
 </body>
+<footer>
+    <p>Hecho por el Team JIMF 🇨🇴💻</p>
+</footer>
 </html>
