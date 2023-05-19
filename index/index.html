@@ -1,32 +1,42 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Chat Global</title>
-    <link rel="stylesheet" href="/index/style.css">
+    <title>Color Chooser</title>
+    <style>
+        .color-box {
+            width: 100px;
+            height: 100px;
+            border: 1px solid #000;
+            cursor: pointer;
+        }
+
+        .color-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 20px;
+        }
+    </style>
 </head>
 <body>
-    <div class="login-box">
-        <h2>Admin Login V2</h2>
-        <form>
-          <div class="user-box">
-            <input type="text" name="" required="">
-            <label>Usuario de administrador</label>
-          </div>
-          <div class="user-box">
-            <input type="password" name="" required="">
-            <label>Contraseña de administrador</label>
-          </div>
-          <a href="#">
-            <span></span>
-            <span></span>
-            <span></span>
-            <span></span>
-            Ingresar al servidor
-          </a>
-        </form>
-      </div>
+    <h1>Color Chooser</h1>
+    <div class="color-list">
+        <div class="color-box" style="background-color: #ff0000;"></div>
+        <div class="color-box" style="background-color: #00ff00;"></div>
+        <div class="color-box" style="background-color: #0000ff;"></div>
+        <div class="color-box" style="background-color: #ffff00;"></div>
+        <div class="color-box" style="background-color: #ff00ff;"></div>
+        <div class="color-box" style="background-color: #00ffff;"></div>
+    </div>
+
+    <script>
+        var colorBoxes = document.getElementsByClassName('color-box');
+        for (var i = 0; i < colorBoxes.length; i++) {
+            colorBoxes[i].addEventListener('click', function(event) {
+                var color = event.target.style.backgroundColor;
+                document.body.style.backgroundColor = color;
+            });
+        }
+    </script>
 </body>
 </html>
