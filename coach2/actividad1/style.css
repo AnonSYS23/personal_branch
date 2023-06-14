@@ -1,0 +1,33 @@
+body{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    background-color: darkgreen;
+}
+
+.main{
+    width: 100%;
+    height: 96vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.example{
+    background-color:gray;
+    padding: 20px;
+    text-align: center;
+    width: 60%;
+    border-radius: 20px;
+}
+
+p:hover{
+    color: blue;
+}
+
+li:hover{
+    color: crimson;
+}
+
+h1:hover{
+    color: chartreuse;
+}

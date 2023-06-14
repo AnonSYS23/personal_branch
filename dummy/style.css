@@ -1,0 +1,166 @@
+/* Global styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 16px;
+  background-color: #0c0d0f;
+  color: #fff;
+}
+
+a {
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  color: #d90429;
+}
+
+/* Header styles */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 0 2rem;
+  background-color: #1b1d20;
+}
+
+header img {
+  height: 30px;
+}
+
+header button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+/* Main styles */
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 60px);
+  padding: 2rem;
+}
+
+.main h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.main p {
+  font-size: 1.2rem;
+  line-height: 2;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.section1 {
+  list-style: none;
+  width: 100%;
+  margin: 4rem 0;
+}
+
+.section1 li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1b1d20;
+  border-radius: 10px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  transition: all 0.3s ease;
+}
+
+.section1 li:hover {
+  background-color: #2d3036;
+}
+
+.section1 li p {
+  margin: 0 1rem;
+}
+
+.section1 li .play-button {
+  width: 30px;
+  height: 30px;
+}
+
+.section1 li .play-button button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.section1 li .play-button button img {
+  width: 100%;
+}
+
+/* Footer styles */
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  background-color: #1b1d20;
+}
+
+.footer-text {
+  font-size: 1.2rem;
+}
+
+.footer-text a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* Buttons styles */
+.buttons {
+  margin: 1rem 0;
+}
+
+.section2 button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  margin-right: 1rem;
+}
+
+.section2 button img {
+  width: 30px;
+  height: 30px;
+}
+
+@media (max-width: 768px) {
+  .main h1 {
+    font-size: 2rem;
+  }
+  
+  .main p {
+    font-size: 1rem;
+  }
+  
+  .section1 li {
+    padding: 0.5rem;
+  }
+  
+  .section1 li p {
+    display: none;
+  }
+  
+  .section1 li .play-button {
+    margin-left: auto;
+  }
+  
+  .footer-text {
+    font-size: 1rem;
+  }
+}
